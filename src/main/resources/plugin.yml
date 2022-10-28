@@ -1,0 +1,19 @@
+name: Wuxialogin
+version: '${project.version}'
+main: dev.zennyel.Login
+authors: [ Zennyel ]
+description: Login plugin for wuxiamc
+commands:
+  login:
+    description: Comando para entrar no servidor
+    aliases: [logar, entrar]
+    permission: wuxia.login
+  registrar:
+    description: Comando para registrar-se no servidor
+    aliases: [register]
+    permission: wuxia.register
+  trocarsenha:
+    description: Comando para trocar sua senha
+    aliases: [changepass]
+    permission: wuxia.changepass
+

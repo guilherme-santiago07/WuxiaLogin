@@ -1,0 +1,6 @@
+Sql:
+  user: 'root'
+  password: 'vertrigo'
+  port: '3306'
+  host: 'localhost'
+  database: 'mine'
